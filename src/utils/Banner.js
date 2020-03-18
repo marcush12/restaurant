@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { styles } from '../utils'
+
 export const Banner = ({ title, subtitle, children }) => {
   return (
     <BannerWrapper>

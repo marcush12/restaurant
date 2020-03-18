@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { styles } from '.'
+
 export function Title({ title, message }) {
+  // title, subtitle
   return (
     <TitleWrapper>
       <h3>{message}</h3>
